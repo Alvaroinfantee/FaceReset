@@ -7,7 +7,7 @@ import numpy as np
 database = {
     "Joe": {
         "balance": 1000,
-        "face_encoding": face_recognition.face_encodings(face_recognition.load_image_file(r"C:\Users\alvar\Downloads\rogan1.jpg"))[0]
+        "face_encoding": face_recognition.face_encodings(face_recognition.load_image_file('rogan1.jpeg'))[0]
     },
     "Dillon": {
         "balance": 1000,
